@@ -2,7 +2,7 @@
 77C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\path-type133504024589651983 1
 106C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\actual\symbol\to-string-tag.js133504070493685464 0
 108C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@swc\helpers\_\_class_private_field_init133504024603008382 1
-59C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist133504933362147939 1
+59C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist133504947414586168 1
 83C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\forkify-flowchart-part-1.png133393543651210476 0
 121C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\style.js133504024598623818 0
 98C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\type-fest\ts41\kebab-case.d.ts133504024593905257 0
@@ -19,7 +19,7 @@
 136C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\function133504024601081743 1
 65C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\.gitignore133504022574291689 0
 109C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\lmdb\node_modules\node-addon-api\index.js133504024593470722 0
-75C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\src\js\controller.js133504933361093875 0
+75C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\src\js\controller.js133504945614284588 0
 58C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\src133504022111680820 1
 85C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\boolbase\index.js133504024588586951 0
 87C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\fill-range\index.js133504024587823945 0
@@ -194,7 +194,7 @@
 107C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\stable\dom-collections\index.js133504070474966932 0
 88C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\package.json133504070498068421 0
 88C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\source-map\README.md133504024588040629 0
-70C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\src\js\model.js133504870893065524 0
+70C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\src\js\model.js133504942638518274 0
 91C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\csso\cjs\replace\atrule133504024595409428 1
 118C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\htmlnano\lib\modules\removeRedundantAttributes.mjs133504024599798374 0
 98C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\stable\date\to-json.js133504070492055972 0
@@ -229,7 +229,7 @@
 102C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\actual\typed-array\fill.js133504070465580873 0
 111C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\modules\esnext.iterator.for-each.js133504070462037091 0
 81C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\react-refresh133504024591939319 1
-81C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\src\js\views\recipeView.js133504932676267245 0
+81C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\src\js\views\recipeView.js133504947413417867 0
 111C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\internals\define-global-property.js133504070454870982 0
 104C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\features\instance\unshift.js133504070496619175 0
 109C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\reporter-dev-server\src\templates133504024589416758 1
@@ -3246,7 +3246,7 @@
 121C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\csso\node_modules\css-tree\lib\generator\sourceMap.js133504024603430673 0
 92C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\es\math\atanh.js133504070451699449 0
 88C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\glob-parent\index.js133504025521389671 0
-82C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\index.f7626f62.css.map133504929448982584 0
+82C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\index.f7626f62.css.map133504945749777323 0
 89C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\glob-parent\README.md133504025521494482 0
 85C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\get-port\index.js133504024588758087 0
 84C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\get-port\license133504024589307347 0
@@ -3605,7 +3605,7 @@
 113C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\csso\node_modules\css-tree\lib\utils\ident.js133504024602329452 0
 114C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\csso\node_modules\css-tree\lib\utils\string.js133504024603430673 0
 99C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\internals\a-callable.js133504070449324535 0
-81C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\index.e37f48ea.js.map133504933362147939 0
+81C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\index.e37f48ea.js.map133504947414555919 0
 130C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\core\test\fixtures\custom-format-mismatch\package.json133504024602630902 0
 124C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\csso\node_modules\css-tree\lib\tokenizer\adopt-buffer.js133504024600894380 0
 97C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\full\instance\trim.js133504070495809445 0
@@ -6699,7 +6699,7 @@
 97C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\profiler\package.json133504024592747521 0
 101C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\features\string\strike.js133504070489878261 0
 98C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\features\string\sub.js133504070490574949 0
-78C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\icons.21bad73c.svg133504929449549339 0
+78C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\icons.21bad73c.svg133504945749609354 0
 101C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\features\string\substr.js133504070490982904 0
 111C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\features\reflect\define-property.js133504070455016812 0
 111C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\transformer-js\src\JSTransformer.js133504024590668130 0
@@ -6881,7 +6881,7 @@
 97C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\features\math\log2.js133504070480174091 0
 104C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\features\math\rad-per-deg.js133504070484350974 0
 100C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\features\math\radians.js133504070484361692 0
-70C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\index.html133504077044328928 0
+70C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\index.html133504940913076243 0
 98C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\features\math\scale.js133504070486393122 0
 104C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\features\math\seeded-prng.js133504070486566333 0
 100C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\core-js\features\math\signbit.js133504070487964120 0
@@ -9357,7 +9357,7 @@
 85C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\graph\lib133504024594081548 1
 85C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\graph\src133504024594252805 1
 86C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\graph\test133504024593093306 1
-77C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\index.e37f48ea.js133504933362083363 0
+77C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\index.e37f48ea.js133504947414515936 0
 108C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\graph\test\AdjacencyList.test.js133504024590980015 0
 107C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\graph\test\ContentGraph.test.js133504024592526765 0
 100C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\graph\test\Graph.test.js133504024593186277 0
@@ -9550,7 +9550,7 @@
 94C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\compressor-raw\src133504024588790523 1
 111C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\compressor-raw\src\RawCompressor.js133504024589002959 0
 89C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\codeframe\lib133504024595549188 1
-77C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\logo.726d37a8.png133504929449227175 0
+77C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\logo.726d37a8.png133504945749796175 0
 100C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\.bin\download-lmdb-prebuilds.ps1133504024612180578 0
 93C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\codeframe\LICENSE133504024587302110 0
 98C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\@parcel\codeframe\package.json133504024595484187 0
@@ -9692,8 +9692,8 @@
 83C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\.bin\semver.ps1133504024612180578 0
 77C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\.bin\svgo133504024612194108 0
 81C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\node_modules\.bin\svgo.cmd133504024612180578 0
-80C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\favicon.8b2f57bf.png133504929448897476 0
-78C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\icons.dfd7a6db.svg133504929449549339 0
+80C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\favicon.8b2f57bf.png133504945749549183 0
+78C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\icons.dfd7a6db.svg133504945749609354 0
 77C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\index.62406edb.js133504025534838821 0
-78C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\index.f7626f62.css133504929448897476 0
+78C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\index.f7626f62.css133504945749679121 0
 90C:\Users\Sergio\Documents\Proyectos git\JS-App-Forkify\dist\JS-App-Forkify.3464ddca.js.map133504025534807765 0
