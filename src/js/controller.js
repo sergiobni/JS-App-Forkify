@@ -32,10 +32,9 @@ const controlRecipes = async () => {
 
 controlRecipes();
 
-//Load hash directly from url and from click
-['load', 'hashchange'].forEach(ev =>
-  window.addEventListener(ev, controlRecipes)
-);
+//Publisher-subscriber pattern
+const init = () => {
+  recipeView.addHandlerRender(controlRecipes);
+};
 
-// window.addEventListener('load', controlRecipes);
-// window.addEventListener('hashchange', controlRecipes);
+init();
