@@ -20,6 +20,8 @@ const controlRecipes = async () => {
     if (!id) return;
     //Loading spinner
     recipeView.renderSpinner();
+    //0 Update results view to mark selected search result
+    resultsView.update(model.getSearchResultsPage());
     //1 Loading recipe
     await model.loadRecipe(id); //Async function, returns promise, we need to await it
     //2 Rendering recipe
@@ -59,7 +61,8 @@ const controlServings = newServings => {
   model.updateServings(newServings);
 
   //Update recipie view
-  recipeView.render(model.state.recipe);
+  //recipeView.render(model.state.recipe);
+  recipeView.update(model.state.recipe);
 };
 
 //Publisher-subscriber pattern
