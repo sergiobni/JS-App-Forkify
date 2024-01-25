@@ -3,11 +3,12 @@ import icons from 'url:../../img/icons.svg';
 export default class View {
   _data;
 
-  render(data) {
+  render(data, render = true) {
     if (!data || (Array.isArray(data) && data.length === 0))
       return this.renderError();
     this._data = data;
     const markup = this._generateMarkup();
+    if (!render) return markup;
     this._clear();
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
@@ -20,25 +21,20 @@ export default class View {
     //This new dom will live in the memory
     const newDOM = document.createRange().createContextualFragment(newMarkup);
     const newElements = Array.from(newDOM.querySelectorAll('*'));
-    //console.log(newElements);
     const curElements = Array.from(this._parentElement.querySelectorAll('*'));
-    //console.log(curElements);
 
     newElements.forEach((newEL, i) => {
       const curEl = curElements[i];
-      //comparing the 2 elements
-      //console.log(curEl, newEL.isEqualNode(curEl));
+      //Comparing the 2 elements
       //Updates changed TEXT
       if (
         !newEL.isEqualNode(curEl) &&
         newEL.firstChild?.nodeValue.trim() !== ''
       ) {
-        //console.log(`🤷‍♂️${newEL.firstChild.nodeValue.trim()}🤷‍♂️`);
         curEl.textContent = newEL.textContent;
       }
       //Updates changed ATTRIBUTES
       if (!newEL.isEqualNode(curEl)) {
-        console.log(newEL.attributes);
         Array.from(newEL.attributes).forEach(attr =>
           curEl.setAttribute(attr.name, attr.value)
         );
