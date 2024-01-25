@@ -603,15 +603,17 @@ const controlRecipes = async ()=>{
         if (!id) return;
         //Loading spinner
         (0, _recipeViewJsDefault.default).renderSpinner();
-        //0 Update results view to mark selected search result
+        //1 Update results view to mark selected search result
         (0, _resultsViewJsDefault.default).update(_modelJs.getSearchResultsPage());
+        //2 Update bookmarks view
         (0, _bookmarksViewJsDefault.default).update(_modelJs.state.bookmarks);
-        //1 Loading recipe
+        //3 Loading recipe
         await _modelJs.loadRecipe(id); //Async function, returns promise, we need to await it
-        //2 Rendering recipe
+        //4 Rendering recipe
         (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
     } catch (err) {
         (0, _recipeViewJsDefault.default).renderError();
+        console.error(err);
     }
 };
 const controlSearchResults = async ()=>{
@@ -651,8 +653,12 @@ const controlAddBookmark = ()=>{
     //3 Rener bookmarks
     (0, _bookmarksViewJsDefault.default).render(_modelJs.state.bookmarks);
 };
+const controlBookmarks = ()=>{
+    (0, _bookmarksViewJsDefault.default).render(_modelJs.state.bookmarks);
+};
 //Publisher-subscriber pattern
 const init = ()=>{
+    (0, _bookmarksViewJsDefault.default).addHandlerRender(controlBookmarks);
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
     (0, _recipeViewJsDefault.default).addHandlerUpdateServings(controlServings);
     (0, _recipeViewJsDefault.default).addHandlerBookmark(controlAddBookmark);
@@ -2582,11 +2588,15 @@ const updateServings = (newServings)=>{
     });
     state.recipe.servings = newServings;
 };
+const persistBookmarks = ()=>{
+    localStorage.setItem("bookmarks", JSON.stringify(state.bookmarks));
+};
 const addBookmark = (recipe)=>{
     //Add bookmark
     state.bookmarks.push(recipe);
     //Mark current recipe as bookmark, setting new property
     if (recipe.id === state.recipe.id) state.recipe.bookmarked = true;
+    persistBookmarks();
 };
 const deleteBookmark = (id)=>{
     //Delete bookmark
@@ -2594,7 +2604,13 @@ const deleteBookmark = (id)=>{
     state.bookmarks.splice(index, 1);
     //Mark current recipe as NOT bookmark
     if (id === state.recipe.id) state.recipe.bookmarked = false;
+    persistBookmarks();
 };
+const init = ()=>{
+    const sotrage = localStorage.getItem("bookmarks");
+    if (state) state.bookmarks = JSON.parse(sotrage);
+};
+init();
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./config.js":"k5Hzs","./helpers.js":"hGI1E"}],"k5Hzs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -3267,6 +3283,9 @@ class BookmarksView extends (0, _viewDefault.default) {
     _parentElement = document.querySelector(".bookmarks__list");
     _errorMessage = `No bookmarks yet! Find and a nice recipie and save it`;
     _message = ``;
+    addHandlerRender(handler) {
+        window.addEventListener("load", handler);
+    }
     _generateMarkup() {
         return this._data.map((bookmark)=>(0, _previewViewDefault.default).render(bookmark, false)).join("");
     }
